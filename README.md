@@ -97,21 +97,27 @@ Open and run inference.ipynb — provide:
 
 The notebook will display predictions and save them inside predictions/.
 
+---
+
 ## 🛠 Challenges & Fixes
-Dataset key mismatch: The JSON file used "colour" instead of "color" → fixed in dataset loader.
+- **Dataset key mismatch:** The JSON file used "colour" instead of "color" → fixed in dataset loader.
 
-Shape mismatches: Ensured train and validation datasets share the same n_colors.
+- **Shape mismatches:** Ensured train and validation datasets share the same n_colors.
 
-Color conditioning issues: Fixed embedding expansion to match UNet input dimensions.
+- **Color conditioning issues:** Fixed embedding expansion to match UNet input dimensions.
+
+---
 
 ## 📚 Key Learnings
-Implementing Conditional UNet from scratch in PyTorch
+- Implementing Conditional UNet from scratch in PyTorch
 
-Handling multi‑input models (image + categorical input)
+- Handling multi‑input models (image + categorical input)
 
-Using W&B for experiment tracking
+- Using W&B for experiment tracking
 
-Debugging shape mismatches and aligning dataset mappings
+- Debugging shape mismatches and aligning dataset mappings
+
+---
 
 ## 📄 Report
 A detailed report covering architecture, hyperparameters, training process, and insights is available here:
