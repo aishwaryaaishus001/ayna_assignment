@@ -15,7 +15,7 @@ config = {
     "img_size": 128
 }
 
-wandb.init(project="polygon-coloring", config=config)
+wandb.init(project="polygon-coloring-public", config=config)
 
 # Transforms
 transform = T.Compose([

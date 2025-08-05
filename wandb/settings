@@ -1,0 +1,5 @@
+[default]
+entity = kpaishwarya001-ayna
+project = polygon-coloring-public
+base_url = https://api.wandb.ai
+
