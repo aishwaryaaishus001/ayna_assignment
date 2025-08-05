@@ -25,9 +25,6 @@ inputs/
 outputs/
 data.json
 
-yaml
-Copy
-Edit
 
 **Note:** The dataset JSON key `"colour"` (British spelling) was handled in preprocessing.
 
