@@ -87,14 +87,10 @@ All generated outputs are available in the `predictions/` folder.
 ## 🚀 How to Run
 
 ### 1. Install dependencies
-```bash
 pip install -r requirements.txt
-2. Train the model
-bash
-Copy
-Edit
+###2. Train the model
 python3 train.py
-3. Run inference
+###3. Run inference
 Open and run inference.ipynb — provide:
 
 Path to polygon image
