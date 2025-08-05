@@ -92,10 +92,8 @@ pip install -r requirements.txt
 python3 train.py
 ### 3. Run inference
 Open and run inference.ipynb — provide:
-
-Path to polygon image
-
-Desired color name (must exist in dataset colors)
+- Path to polygon image
+- Desired color name (must exist in dataset colors)
 
 The notebook will display predictions and save them inside predictions/.
 
@@ -117,4 +115,4 @@ Debugging shape mismatches and aligning dataset mappings
 
 ## 📄 Report
 A detailed report covering architecture, hyperparameters, training process, and insights is available here:
--![📄 assignment_report.pdf](ayna_assignment_report.pdf)
+- 📄 ![assignment_report.pdf](ayna_assignment_report.pdf)
