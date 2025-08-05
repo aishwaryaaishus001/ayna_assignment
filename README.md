@@ -88,9 +88,9 @@ All generated outputs are available in the `predictions/` folder.
 
 ### 1. Install dependencies
 pip install -r requirements.txt
-2. Train the model
+### 2. Train the model
 python3 train.py
-###3. Run inference
+### 3. Run inference
 Open and run inference.ipynb — provide:
 
 Path to polygon image
@@ -99,14 +99,14 @@ Desired color name (must exist in dataset colors)
 
 The notebook will display predictions and save them inside predictions/.
 
-🛠 Challenges & Fixes
+## 🛠 Challenges & Fixes
 Dataset key mismatch: The JSON file used "colour" instead of "color" → fixed in dataset loader.
 
 Shape mismatches: Ensured train and validation datasets share the same n_colors.
 
 Color conditioning issues: Fixed embedding expansion to match UNet input dimensions.
 
-📚 Key Learnings
+## 📚 Key Learnings
 Implementing Conditional UNet from scratch in PyTorch
 
 Handling multi‑input models (image + categorical input)
@@ -115,6 +115,6 @@ Using W&B for experiment tracking
 
 Debugging shape mismatches and aligning dataset mappings
 
-📄 Report
+## 📄 Report
 A detailed report covering architecture, hyperparameters, training process, and insights is available here:
-📄 ayna_assignment_report.pdf
+-![📄 assignment_report.pdf](ayna_assignment_report.pdf)
