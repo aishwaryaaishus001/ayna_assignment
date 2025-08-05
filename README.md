@@ -88,7 +88,7 @@ All generated outputs are available in the `predictions/` folder.
 
 ### 1. Install dependencies
 pip install -r requirements.txt
-###2. Train the model
+2. Train the model
 python3 train.py
 ###3. Run inference
 Open and run inference.ipynb — provide:
