@@ -115,4 +115,4 @@ Debugging shape mismatches and aligning dataset mappings
 
 ## 📄 Report
 A detailed report covering architecture, hyperparameters, training process, and insights is available here:
-- 📄 ![assignment_report.pdf](ayna_assignment_report.pdf)
+- [📄 assignment_report.pdf](ayna_assignment_report.pdf)
