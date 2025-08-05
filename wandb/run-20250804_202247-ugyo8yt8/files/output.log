@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "/home/aishwarya/Documents/Ayna_Assignment/train.py", line 61, in <module>
+    output = model(polygon, color)
+  File "/home/aishwarya/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/aishwarya/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/aishwarya/Documents/Ayna_Assignment/model.py", line 45, in forward
+    color_embed = self.color_fc(color_onehot)  # (B, 64)
+  File "/home/aishwarya/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/aishwarya/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/aishwarya/.local/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (5x4 and 8x64)
+Traceback (most recent call last):
+  File "/home/aishwarya/Documents/Ayna_Assignment/train.py", line 61, in <module>
+    output = model(polygon, color)
+  File "/home/aishwarya/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/aishwarya/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/aishwarya/Documents/Ayna_Assignment/model.py", line 45, in forward
+    color_embed = self.color_fc(color_onehot)  # (B, 64)
+  File "/home/aishwarya/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/aishwarya/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/aishwarya/.local/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (5x4 and 8x64)

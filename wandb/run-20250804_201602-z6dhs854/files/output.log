@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/home/aishwarya/Documents/Ayna_Assignment/train.py", line 27, in <module>
+    train_dataset = PolygonColorDataset("dataset/dataset", split="training", transform=transform)
+  File "/home/aishwarya/Documents/Ayna_Assignment/dataset.py", line 19, in __init__
+    self.colors = sorted({item["color"] for item in self.data})
+  File "/home/aishwarya/Documents/Ayna_Assignment/dataset.py", line 19, in <setcomp>
+    self.colors = sorted({item["color"] for item in self.data})
+KeyError: 'color'
+Traceback (most recent call last):
+  File "/home/aishwarya/Documents/Ayna_Assignment/train.py", line 27, in <module>
+    train_dataset = PolygonColorDataset("dataset/dataset", split="training", transform=transform)
+  File "/home/aishwarya/Documents/Ayna_Assignment/dataset.py", line 19, in __init__
+    self.colors = sorted({item["color"] for item in self.data})
+  File "/home/aishwarya/Documents/Ayna_Assignment/dataset.py", line 19, in <setcomp>
+    self.colors = sorted({item["color"] for item in self.data})
+KeyError: 'color'
